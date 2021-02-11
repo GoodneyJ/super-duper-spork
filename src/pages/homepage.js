@@ -1,17 +1,22 @@
 import React from 'react'
-import Hero from './hero.js'
-import Nav from './navbar.js'
-import Footer from './footer.js'
-import Steak from './IMAGES/STEAK.jpg'
-import SteakBowl from './IMAGES/STEAKBOWL.jpg'
-import Fish from './IMAGES/FISH.jpg'
-import Icecream from './IMAGES/ICECREAM.jpg'
-
+import Hero from '../components/hero'
+import Footer from '../components/footer'
+import Steak from '../IMAGES/STEAK.jpg'
+import SteakBowl from '../IMAGES/STEAKBOWL.jpg'
+import Fish from '../IMAGES/FISH.jpg'
+import Icecream from '../IMAGES/ICECREAM.jpg'
+import Veggies from '../IMAGES/VEGGIES.jpg'
 
 export default function homepage() {
+    document.title = "Restaurant | Homepage"
+
     return (
         <div id="homepage-container">
-            <Hero />
+            <Hero
+            heading="Inspired Thai Cuisine"
+            caption="Voted New York's Best Thai Restaurant"
+            img={Veggies}
+            />
 
             {/* FIRST SECTION */}
             <div id="first-section-container">

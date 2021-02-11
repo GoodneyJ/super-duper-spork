@@ -1,0 +1,32 @@
+#reception-section-container {
+    padding: 3rem 0;
+}
+
+#reception-section-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    width: 55%;
+    margin: 1rem auto;
+}
+
+#reception-section-info {
+    display: flex;
+    justify-self: center;
+    width: 50%;
+    margin: 3rem auto;
+}
+
+#reception-section-info p {
+    margin-right: 4rem;
+}
+
+@media only screen and (max-width: 996px) {
+    #reception-section-info {
+        width: 75%;
+    }
+
+    #reception-section-heading {
+        width: 65%;
+    }
+
+}
